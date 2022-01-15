@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BootStrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- FOR FONT-AWESOME  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="scss/main.css">
+  <title>EW3 TECH</title>
+</head>
+
+<body ondblclick="myFun()">
+
+
+
+
+
+  <!-- NAVBAR CODIN START  -->
+  <header>
+    <div class="logo">
+      <img src="images/Ew3tech.png">
+    </div>
+    <div class="menu">
+      <nav>
+        <ul id="ul" onclick="myFun()">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#feedback">Feedback</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header_toggle">
+      <i onclick="toggle()" class="fas fa-bars"></i>
+    </div>
+  </header>
+  <!-- NAVBAR CODING END -->
+
+
+
+
+
+
+
+  <!-- HOME MAIN SECTION CODING START  -->
+  <section class="homeMainSection-parent" id="home">
+    <h3>Welcome to EW3 TECH</h3>
+    <p>E-commerce and Web Development Agency</p>
+  </section>
+  <!-- HOME MAIN SECTION CODING END -->
+
+
+
+
+
+
+
+  <!-- ABOUT SECOND SECTION CODING START -->
+  <div class="pageheading" id="about">
+    <h1>About</h1>
+  </div>
+  <div class="container my-5 bootstrapContainer">
+    <div class="grid-container  aboutSecondSection">
+      <div class="aboutSecondSection-childs">
+        <h1>Who We Are</h1>
+        <p>EW3 tech is well Organized and growing company in Swat Pakistan. We have been providing E-commerce, Digital
+          Marketing, Graphic Designing and Web Development Services for many years. The purpose of this agency is to
+          help people in the Digital Platform to achieve their goals. In a Short time, you can grow your business
+          through their services.</p>
+      </div>
+      <div class="aboutSecondSection-childs">
+        <h1>Our Mission</h1>
+        <p>The Mission of EW3 Tech is to Create Opportunities for the youth of our Country Pakistan, To Boost the
+          businesses in Digital Way, To Provide their Services to make professionals more productive and successful</p>
+      </div>
+      <div class="aboutSecondSection-childs">
+        <h1>Our Vision</h1>
+        <p>EW3 Tech Aiming to inspire people to think big and overcome obstacles, To convert your traditional way of
+          Business to Digital One. Under the leadership of its CEO Shuaib Khan, EW3 Tech aims to strengthen the Commerce
+          industry in the country, creating opportunities for passive income through E-Commerce."</p>
+      </div>
+    </div>
+  </div>
+  <!-- ABOUT SECOND SECTION CODING END -->
+
+
+
+
+
+  <!-- ABOUT THIRD SECTION CODING START -->
+  <div class="container my-5 bootstrapContainer">
+    <div class="aboutThirdSection">
+      <div class="aboutThirdSection-childs my-3">
+        <div class="aboutThirdSectionChild1">
+          <img src="./images/faraz.jpeg" alt="founder">
+          <h3>Faraz Khan</h3>
+          <h5>Founder of EW3 Tech</h5>
+        </div>
+        <hr>
+        <div class="aboutThirdSectionChild3">
+          <p>Faraz Khan is an Amazon Seller and Virtual Assistant. He is the Founder of EW3 Tech an Ecommerce and Web
+            Development Agency based in Swat Pakistan. He is a Graduated Software Engineer from one of the top Institute
+            in the Country. He has 2 years of experience in the field of E-Commerce with a vast knowledge of Digital
+            Marketing. He aims to create opportunities instead of waiting for opportunities, His Message for the Youth
+            is to focus on skills instead of Numbers/ Grades And always to be Productive instead of Time wasters.
+          </p>
+        </div>
+      </div>
+
+      <div class="aboutThirdSection-childs my-3">
+        <div class="aboutThirdSectionChild1">
+          <img src="./images/shuaib.jpg" alt="founder">
+          <h3>Shuaib Khan</h3>
+          <h5>Founder of EW3 Tech</h5>
+        </div>
+        <hr>
+
+        <div class="aboutThirdSectionChild3">
+          <p>Shuaib Khan is an experienced web developer, He is the Co-Founder and CEO of EW3 Tech an eCommerce and web
+            Development Agency Based in Swat Pakistan. He is a Graduated Software Engineer from one of the top Institute
+            in the Country. He has 4 Years of Experience in the field of Web development (Html, CSS, Bootstrap,
+            JavaScript, ReactJS, NodeJS) with a vast knowledge of WordPress Development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 bootstrapContainer">
+    <div class="aboutFourthSection">
+      <div class="aboutFourthSection-childs my-3">
+        <div class="aboutFourthSectionChild1">
+          <i class="fas fa-shopping-bag"></i>
+          <p class="counter" data-target="500">0</p>
+          <h3>Projects Completed</h3>
+        </div>
+        <div class="aboutFourthSectionChild1">
+          <i class="fas fa-users"></i>
+          <p class="counter" data-target="500">0</p>
+          <h3>User Connected</h3>
+        </div>
+        <div class="aboutFourthSectionChild1">
+          <i class="fas fa-shopping-bag"></i>
+          <p class="counter" data-target="500">0</p>
+          <h3>Pending Projects</h3>
+        </div>
+        <div class="aboutFourthSectionChild1">
+          <i class="fas fa-shopping-bag"></i>
+          <p class="counter" data-target="500">0</p>
+          <h3>5 start prejects</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ABOUT THIRD SECTION CODING END -->
+
+
+
+
+
+  <hr style="color: white;">
+
+
+
+
+
+
+  <!-- SERVICE SECOND SECTION CODING START -->
+  <div class="pageheading" id="services">
+    <h1>Services</h1>
+  </div>
+  <div class="container my-5 bootstrapContainer">
+    <div class="grid-container serviceSecondSection">
+      <div class="serviceSecondSection-childs">
+        <h1>FBA Private Label</h1>
+        <p>FBA Private Label is one of the business models in Amazon. FBA PL is like selling your own brand. FBA PL
+          product is a product which is manufactured by a third-party manufacturer and sold under a brand name and
+          fulfilled by Amazon. As the brand owner, you specify everything about the product to make your product unique.
+          Contact us for More information.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>FBA Wholesale</h1>
+        <p>FBA Wholesale is one of Business models of Amazon, In FBA WS you can purchase products in bulk at a
+          discounted price from a manufacturer and resell them on Amazon. Contact us for more Information.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Pay Per Click</h1>
+        <p>Pay-per-click is an internet advertising model used to drive traffic to websites, in which an advertiser pays
+          a publisher when the ad is clicked. Contact for more Information.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Amazon Account Creation</h1>
+        <p>As we know that without Account we can’t sell on Amazon so EW3 Tech is also providing services of Amazon
+          account creation, For more Information Contact Us.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Content Writing</h1>
+        <p>Content writing is the process of planning, writing and editing web content, typically for digital marketing
+          purposes. It can include writing blog posts and articles, scripts for videos and podcasts, as well as content
+          for specific platforms, such as tweetstorms on Twitter or text posts on Reddit. For writing any type of
+          content just contact us.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>SEO</h1>
+        <p>Search engine optimization is the process of improving the quality and quantity of website traffic to a
+          website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid
+          traffic. EW3 Tech also providing the service of SEO just contact us.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Graphic Designing</h1>
+        <p>Graphic design is a craft where professionals create visual content to communicate messages. By applying
+          visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific
+          needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.
+          For Availing this Service just contact us.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Digital Marketing</h1>
+        <p>Graphic design is a craft where professionals create visual content to communicate messages. By applying
+          visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific
+          needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.
+        </p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Content Writing</h1>
+        <p>Content writing is the process of planning, writing and editing web content, typically for digital marketing
+          purposes. It can include writing blog posts and articles, scripts for videos and podcasts, as well as content
+          for specific platforms, such as tweetstorms on Twitter or text posts on Reddit. For writing any type of
+          content just contact us.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Web development</h1>
+        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development
+          can range from developing a simple single static page of plain text to complex web applications, electronic
+          businesses, and social network services.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>WordPress development</h1>
+        <p>A WordPress developer is a professional that specializes in the infrastructure and ecosystem of the WordPress
+          platform. They might focus on improving the WordPress software itself or creating new products, particularly
+          plugins and themes. ... This is a broad definition because WordPress development is such a broad field.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Web development</h1>
+        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development
+          can range from developing a simple single static page of plain text to complex web applications, electronic
+          businesses, and social network services.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Backend Development</h1>
+        <p>Backend Development is also known as server-side development. It is everything that the users don't see and
+          contains behind-the-scenes activities that occur when performing any action on a website</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Front End Development</h1>
+        <p>Front-end web development is the development of the graphical user interface of a website, through the use of
+          HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+      </div>
+      <div class="serviceSecondSection-childs">
+        <h1>Web Designing</h1>
+        <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user
+          experience aspects of website development rather than software development.</p>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICE SECOND SECTION CODING END -->
+
+
+
+
+
+
+  <hr style="color: white;">
+
+
+
+
+
+
+  <!-- CONTACT SECOND SECTION CODING START -->
+  <div class="pageheading" id="contact">
+    <h1>Contact</h1>
+  </div>
+
+  <div class="container my-5  bootstrapContainer">
+
+    <div class="grid-container contactSecondSection">
+
+      <div class="contactSecondSection-childs">
+        <h1 style="font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 2px;color: #ff964b;
+        font-family: 'Arimo', sans-serif;">We are here to help!</h1>
+        <div style="margin: 10px 0px; color: gray;">
+          <span style="margin-right:10px ;color: gray;"><i class="fas fa-map-marker-alt ;  font-size: 15px;
+            letter-spacing: 1.2px;
+            color: black;
+            font-family: 'Arimo', sans-serif;"></i></span>
+          <span>1234 N Spring St, Los Angeles, CA 90012</span>
+        </div>
+
+        <div style="margin: 10px 0px 50px;  font-size: 15px;
+        letter-spacing: 1.2px;
+        font-family: 'Arimo', sans-serif;"><span style="margin-right:10px; color: gray ;"><i
+              class="fas fa-phone"></i></span>
+          <span style="color: gray;">+1 234 567 890</span></div>
+
+        <div class="social-icons">
+          <h2 style="margin: 10px 0px; font-size: 23px;
+    font-weight: bold;
+    color: #ff964b;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;">Follow us</h2>
+          <a href="https://www.facebook.com/ew3tech.org"><i class="fab fa-facebook-f px-2"></i></a>
+          <a href="https://www.instagram.com/ew3_tech"><i class="fab fa-instagram px-2"></i></a>
+          <a href="https://www.linkedin.com/in/ew3tech/"><i class="fab fa-linkedin-in px-2"></i></a>
+          <a href="#"><i class="fab fa-twitter px-2"></i></a>
+        </div>
+      </div>
+
+      <div class="contactSecondSection-childs">
+        <h1 style="font-size: 28px;
+        color: #ff964b;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-family: 'Arimo', sans-serif;">Send us a message</h1>
+        <form action="action_page.php">
+          <input type="text" id="fname" name="firstname" style="color: gray;" placeholder="Your name..">
+          <input type="text" id="lname" name="lastname" style="color: gray;" placeholder="Your last name..">
+          <textarea id="subject" name="subject" style="color: gray;" placeholder="Write something.."
+            style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- CONTACT SECOND SECTION CODING END -->
+
+
+
+
+
+  <!-- CONTACT SECOND THIRD CODING START -->
+
+  <div class="container my-5  bootstrapContainer">
+    <div class="grid-container contactSecondSection">
+      <div class="contactSecondSection-childs">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13124.781942418587!2d72.197081!3d34.6750154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x300fbd5461297def!2sEW3%20Tech!5e0!3m2!1sen!2s!4v1642282303715!5m2!1sen!2s" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+</div>
+<!-- CONTACT SECOND THIRD CODING END -->
+
+
+
+
+
+
+
+
+  <!-- FOOTER CODING START  -->
+  <footer>
+
+
+
+    <!-- FOOTER FIRST SECTION START  -->
+    <div class="footerFirstSection pt-4">
+      <div class="footerFirstSection-childs">
+        <div style="text-align: center;">
+          <a href="/index.html"><img src="images/Ew3tech.png"></a>
+        </div>
+      </div>
+      <div class="footerFirstSection-childs">
+        <span><i class="far fa-phone"></i></span>
+        <a href="#">+92 3411072008</a>
+      </div>
+      <div class="footerFirstSection-childs">
+        <span><i class="far fa-sms"></i></span>
+        <a href="#">ew3tech@gmail.org</a>
+      </div>
+      <div class="footerFirstSection-childs">
+        <span> <i class="fal fa-map-marker-alt"></i></span>
+        <a href="#">Guratai Barikot Swat, 19200</a>
+      </div>
+    </div>
+    <hr style="background-color: gray; width: 90%; margin: auto; margin-top: 10px;">
+    <!-- FOOTER FIRST SECTION END  -->
+
+
+
+
+    <!-- FOOTER SECOND SECTION START  -->
+    <div class="footerSecondSection mt-3">
+      <div class="footerSecondSection-childs">
+        <h3>About</h3>
+        <p>EW3 tech is well Organized and growing company in Swat Pakistan. We have been providing E-commerce, Digital
+          Marketing, Graphic Designing and Web Development Services for many years.</p>
+        <div>
+          <a href="https://www.facebook.com/ew3tech.org"><i class="fab fa-facebook-f px-2"></i></a>
+          <a href="https://www.instagram.com/ew3_tech"><i class="fab fa-instagram px-2"></i></a>
+          <a href="https://www.linkedin.com/in/ew3tech/"><i class="fab fa-linkedin-in px-2"></i></a>
+          <a href="#"><i class="fab fa-twitter px-2"></i></a>
+        </div>
+      </div>
+      <div class="footerSecondSection-childs">
+        <h3>Services</h3>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+        <a href="#">Pay Cer Click</a>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+      </div>
+      <div class="footerSecondSection-childs">
+        <h3>Comunity</h3>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+        <a href="#">Pay Cer Click</a>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+      </div>
+      <div class="footerSecondSection-childs">
+        <h3>Quick links</h3>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+        <a href="#">Pay Cer Click</a>
+        <a href="#">SEO Marketing</a>
+        <a href="#">SEO Service</a>
+      </div>
+    </div>
+    <!-- FOOTER SECOND SECTION END  -->
+
+
+
+
+
+    <!-- FOOTER THIRD SECTION START  -->
+    <div class="footerThirdSection mt-5">
+      <p>Copyright &copy 2022 All Rights Reserved By Sh Uaib</p>
+    </div>
+    <!-- FOOTER THIRD SECTION END  -->
+
+
+
+
+  </footer>
+  <!-- FOOTER CODING END  -->
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <!--BootStrap JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
